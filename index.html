@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./index.css">
+    <title>APOD</title>
 </head>
 <body>
-    <header></header>
+    <header> 
+        <h1>Descuba o universo com as fotos da Nasa</h1> 
+    </header>
+    <main>
+        <section>
+            <h2>Veja as fotos do espaço que a NASA tira todos os dia!</h2>
+            <form action="get">
+                <label for="dia">dia</label>
+                <input type="date" id="dia">
+                <button>Ver a foto!</button>
+            </form>
+            <p id="erro"></p>
+            <h2></h2>
+            <p id="descritor"></p>
+        </section>
+        <div id="video">
+        </div>
+    </main>
     <footer>
         <a href="https://github.com/CarratiPatrick" target="_blank"><img class="link" src="./img/github.png" alt=""></a>
         <p>Todos os direitos reservados. Projeto para fins educacionais.</p>
